@@ -1,0 +1,19 @@
+{
+  "name": "marvelf",
+  "version": "1.0.0",
+  "description": "Find your favorite character of marvel",
+  "main": "pages/index.js",
+  "repository": "git@github.com:yeion7/marvelf.git",
+  "author": "Yeison Daza <jahir045@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^3.0.0-beta6",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
