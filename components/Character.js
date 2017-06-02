@@ -7,8 +7,8 @@ const Characters = ({ name, thumbnail, description, comics }) => (
     <div className="description">
       <p>{description || 'No tiene descripción 😕 '}</p>
       <button>VIEW MORE</button>
-      <ComicsList comics={comics} />
     </div>
+    <ComicsList comics={comics} />
 
     <style jsx>{`
       .container {
@@ -46,6 +46,7 @@ const Characters = ({ name, thumbnail, description, comics }) => (
         height: 70%;
         overflow: hidden;
         text-overflow: ellipsis;
+        color: #756a69;
       }
 
       button {

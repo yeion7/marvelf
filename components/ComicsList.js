@@ -2,7 +2,7 @@ import React from 'react';
 
 export default ({ comics }) => (
   <div className="comics">
-    <h4>Related comics</h4>
+    <h3>Related comics</h3>
     <div className="comics-list">
       {new Array(4)
         .fill(null)
@@ -10,6 +10,10 @@ export default ({ comics }) => (
     </div>
 
     <style jsx>{`
+
+      h3 {
+        color: #756a69;
+      }
       .comics {
         position: relative;
         padding: 5px
@@ -34,7 +38,8 @@ export default ({ comics }) => (
         vertical-align: top;
         width: 50%;
         padding-right: 10%;
-        margin-top: 10px
+        margin-top: 10px;
+        color: #756a69;
       }
 
 
