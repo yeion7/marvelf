@@ -1,4 +1,10 @@
 import React from 'react';
 import Searcher from '../components/Searcher';
+import Characters from '../components/Characters';
 
-export default () => <Searcher />;
+export default () => (
+  <div>
+    <Searcher />
+    <Characters />
+  </div>
+);
